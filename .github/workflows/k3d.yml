@@ -17,4 +17,4 @@ jobs:
         run: curl -s https://raw.githubusercontent.com/rancher/k3d/main/install.sh | bash
         
       - name: K3D cluster create
-        run: k3d create cluster
+        run: k3d cluster create
